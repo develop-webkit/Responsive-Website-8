@@ -1,0 +1,139 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+}
+@media(max-width: 1440px){
+	html,body{
+		font-size: 14px;
+	}
+}
+@media(max-width: 1366px){
+	html,body{
+		font-size: 13px;
+	}
+}
+@media(max-width: 1280px){
+	html,body{
+		font-size: 12px;
+	}
+}
+@media(max-width: 1024px){
+	html,body{
+		font-size: 10px;
+	}
+}
+@media(max-width: 767px){
+	html,body{
+		font-size: 14px;
+	}
+	.order{
+	    order: initial;
+	}
+	.header{
+		text-align: center;
+	}
+	.recom_section .col-md-8{
+	    padding-left: 15px;
+	}
+	.recom_section h4{
+	    margin-top: 7.5rem;
+	    font-size: 1.6rem;
+	}
+	.recom_section ul li{
+	    padding-right: 0;
+	}
+	.recom_section ul.list-inline li{
+	    display: inline-block;
+	}
+	.recom_section .uvp{
+	    width: 100%;
+	}
+	.load_section img{
+	    margin-bottom: 2rem;
+	}
+	.load_section,.load_section2 .flexer{
+	    text-align: center;
+	}
+	.green_section .lg_img{
+	    margin-top: 0;
+	    margin-bottom: 2.5rem;
+	}
+	.green_section2{
+	    padding-top: 0;
+	}
+	.green_section{
+	    text-align: center;
+	}
+	.green_section p{
+	    padding: 0;
+	}
+	.easy_section .img_easy{
+	    width: 75%;
+	}
+	.top_section2 p{
+	    font-size: 1.75rem;
+	}
+	.step_box{
+	    display: none;
+	}
+	.logo_section .logo{
+		width: 17.5rem;
+	}
+	.checkout_section .view_text{
+	    margin-top: 1rem;
+	}
+	.checkout_section .disc_box{
+	    margin-bottom: 1.5rem;
+	}
+	.checkout_section .paypal_wrap .text{
+	    font-size: 1.25rem;
+	}
+	.checkout_section .guarantee_text img{
+	    width: 9rem;
+	}
+	.checkout_section .forbes{
+	    margin-top: 0;
+	    width: 70%;
+	}
+	.checkout_section .nedium{
+	    margin-top: .5rem;
+	    width: 100%;
+	}
+	.checkout_section p.review{
+	    font-size: 1.25rem;
+	}
+	.bottom_section{
+	    padding: 0;
+	}
+	.bottom_section .container,.bottom_section .col-6{
+	    padding: 0;
+	}
+	.bottom_section .row{
+	    margin: 0;
+	}
+	.bottom_section .btn_yellow{
+	    border-radius: 0;
+	    box-shadow: none;
+	}
+	.bottom_section .btn_yellow img{
+		width: 10.75rem;
+	}
+	.bottom_section .btn_green{
+	    border-radius: 0;
+	    box-shadow: none;
+	    font-size: 1.75rem;
+	}
+	.bottom_section .btn_green img{
+	    width: 5rem;
+	}
+}
